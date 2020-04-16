@@ -1,0 +1,37 @@
+{
+   "getVehicleOccupancy":{
+      "function":"getVehicleOccupancy",
+      "DataProvider":"InLineWeb",
+      "vehicleID":"958006481724",
+      "timestamp":"2019-10-18T11:50:23.123Z",
+      "countingArea":[
+         {
+            "areaID":"1",
+            "occupancy":[
+               {
+                  "objectClass":"Adult",
+                  "value":"149",
+                  "errorCode":0
+               },
+               {
+                  "objectClass":"Bike",
+                  "value":"8",
+                  "errorCode":0
+               }
+            ]
+         }
+      ],
+      "lastCountingLocation":{
+         "gnss":{
+            "longitude":50.99138888888889,
+            "latitude":11.325833333333334,
+            "errorCode":0
+         },
+         "stopPoint":"8010366",
+         "stopName":"Apensen",
+         "timeDeparture":"2020-02-10T14:04:19.000+01:00"
+      },
+      "journeyInfo":"4711",
+      "errorCode":0
+   }
+}
